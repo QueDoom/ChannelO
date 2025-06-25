@@ -7,7 +7,7 @@ import software.bernie.geckolib.model.DefaultedItemGeoModel;
 import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.GeoItemRenderer;
 
-public class VoidPebbleItemRenderer extends GeoItemRenderer<VoidPebbleItem> {
+public class  VoidPebbleItemRenderer extends GeoItemRenderer<VoidPebbleItem> {
     public VoidPebbleItemRenderer() {
         super(new DefaultedItemGeoModel<>(Identifier.of(ChannelO.MOD_ID, "void_pebble")));
     }

@@ -1,0 +1,34 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.void_pebble",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "pebble",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, -1], "size": [2, 2, 2], "uv": [0, 8]},
+						{"origin": [-1, 0.75, 0], "size": [2, 2, 2], "pivot": [0, 0.75, 1], "rotation": [76.18343, 21.84271, 49.66573], "uv": [8, 8]},
+						{"origin": [-1, 0.75, 0], "size": [2, 2, 2], "pivot": [0, 0.75, 1], "rotation": [127.52787, 43.97153, 79.46623], "uv": [8, 12]},
+						{"origin": [-0.4, 0.5, -1.6], "size": [2, 2, 2], "pivot": [0.6, 0.5, -0.6], "rotation": [-65.73733, -27.94854, -37.08762], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "blink",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, -1, -2], "size": [4, 4, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
